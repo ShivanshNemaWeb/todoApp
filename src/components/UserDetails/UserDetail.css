@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+.profile-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 30px;
+}
+.profile-cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  height: 350px;
+  position: relative;
+  color: #2d2d2d;
+  background-color: #9588dd;
+  letter-spacing: 1px;
+  border: 15px solid #b8bef3;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.profile-cards .card .card-description {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: auto;
+  height: 100%;
+  gap: 10px;
+}
+
+.card-description p{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
